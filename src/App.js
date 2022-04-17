@@ -9,6 +9,7 @@ import Login from "./Pages/Login/Login/Login";
 import Service from "./Pages/Home/Service/Service";
 import Blog from "./Pages/Blog/Blogs"
 import Register from "./Pages/Login/Register/Register";
+import Album from "./Pages/Home/Album/Album";
 
 function App() {
   return (
@@ -17,6 +18,7 @@ function App() {
       <Routes>
         <Route path="/" element={<Home></Home>}></Route>
         <Route path="/home" element={<Home></Home>}></Route>
+        <Route path="/album" element={<Album></Album>}></Route>
         <Route path="/service" element={<Service></Service>}></Route>
         <Route path="/blog" element={<Blog></Blog>}></Route>
         <Route path="/about" element={<About></About>}></Route>

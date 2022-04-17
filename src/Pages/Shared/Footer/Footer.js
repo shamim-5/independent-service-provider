@@ -8,7 +8,7 @@ const Footer = () => {
     <div>
       <p className="text-center text-muted mt-5">
         <small className="fs-6">
-          Copyright <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 IS-provider123.com
+          Copyright <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 Framed-WildLife.com
         </small>
       </p>
     </div>

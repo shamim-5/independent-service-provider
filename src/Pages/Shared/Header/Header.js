@@ -8,11 +8,16 @@ const Header = () => {
     <>
       <Navbar className="text-uppercase fw-bolder navigation-menu" sticky="top" variant="dark">
         <Container>
-          <Navbar.Brand as={Link} to="/">Wild</Navbar.Brand>
+          <Navbar.Brand as={Link} to="/">
+            Framed wildlife
+          </Navbar.Brand>
 
           <Nav>
             <Nav.Link as={Link} to="home">
               Home
+            </Nav.Link>
+            <Nav.Link as={Link} to="album">
+              Album
             </Nav.Link>
             <Nav.Link as={Link} to="service">
               Service
