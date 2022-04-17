@@ -1,10 +1,15 @@
+import { faCopyright } from "@fortawesome/free-regular-svg-icons";
+import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
+
 import React from "react";
 
 const Footer = () => {
   return (
     <div>
       <p className="text-center text-muted mt-5">
-        <small>wild@2022 All rights reserved</small>
+        <small className="fs-6">
+          Copyright <FontAwesomeIcon icon={faCopyright}></FontAwesomeIcon> 2022 IS-provider123.com
+        </small>
       </p>
     </div>
   );
