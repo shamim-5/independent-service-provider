@@ -32,9 +32,9 @@ const Login = () => {
       <div className="login-form">
         <h2 style={{ textAlign: "center" }}>Please Login</h2>
         <form onSubmit={handleLogin}>
-          <input type="email" name="email" id="" placeholder="Email Address" required />
+          <input type="email" name="email" placeholder="Email Address" required />
 
-          <input type="password" name="password" id="" placeholder="Password" required />
+          <input type="password" name="password" placeholder="Password" required />
           <input type="submit" value="Login" />
         </form>
         <p>

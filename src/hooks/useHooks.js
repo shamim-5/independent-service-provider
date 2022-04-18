@@ -7,13 +7,7 @@ const useHooks = () => {
       .then((res) => res.json())
       .then((data) => setService(data));
   }, []);
-
-  const [position, setUsePosition] = useState("");
-  useEffect(() => {
-    setUsePosition(position);
-  },[position])
-
-  return [service, setService, position, setUsePosition];
+  return [service, setService];
 };
 
 export default useHooks;
