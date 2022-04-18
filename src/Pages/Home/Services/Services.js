@@ -1,17 +1,9 @@
-import { useEffect, useState } from "react";
 import { Row } from "react-bootstrap";
 import useHooks from "../../../hooks/useHooks";
-import Checkout from "../../Checkout/Checkout/Checkout";
 import Service from "../Service/Service";
 
 const Services = () => {
   const [service] = useHooks();
-  const [check, setCheck] = useState("");
-
-  const handlePurchase = (id) => {
-    setCheck(id);
-  };
-  
 
   return (
     <div className="container">
@@ -21,10 +13,9 @@ const Services = () => {
       </h2>
       <Row xs={1} md={3} className="g-2">
         {service.map((service) => (
-          <Service key={service.id} service={service} handlePurchase={handlePurchase}></Service>
+          <Service key={service.id} service={service}></Service>
         ))}
       </Row>
-      <Checkout check={check}></Checkout>
     </div>
   );
 };

@@ -15,55 +15,55 @@ const Album = () => {
   return (
     <div>
       <h2 className="text-center fw-bold text-info pb-4 pt-5 ">WILDLIFE IMAGE SAMPLES</h2>
-      <div className="container">
+      <div className="container ">
         <Row xs={1} md={4} className="g-2">
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic1} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic4} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic5} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic6} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic7} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic8} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic9} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic10} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic11} />
             </Card>
           </Col>
           <Col>
-            <Card>
+            <Card  className="shadow-lg">
               <Card.Img variant="top" src={pic12} />
             </Card>
           </Col>
