@@ -2,10 +2,12 @@ import React from "react";
 import { useSignInWithEmailAndPassword } from "react-firebase-hooks/auth";
 import { Link, useLocation, useNavigate } from "react-router-dom";
 import auth from "../../../firebase.init";
+import Loading from "../../Shared/Loading/Loading";
 import SocialLogin from "../SocialLogin/SocialLogin";
 import "./Login.css";
 
 const Login = () => {
+  let showError;
   const [signInWithEmailAndPassword, user, loading, error] = useSignInWithEmailAndPassword(auth);
 
   const navigate = useNavigate();
@@ -13,8 +15,15 @@ const Login = () => {
 
   let from = location.state?.from?.pathname || "/";
 
+  if (loading) {
+    return <Loading></Loading>;
+  }
+
   if (user) {
     navigate(from, { replace: true });
+  }
+  if (error) {
+    showError = <p className="text-danger">Error: {error?.message}</p>;
   }
 
   const handleLogin = (event) => {
@@ -37,11 +46,16 @@ const Login = () => {
           <input type="password" name="password" placeholder="Password" required />
           <input type="submit" value="Login" />
         </form>
+        {showError}
         <p>
-          New to Wild?{" "}
+          New to WildLife?{" "}
           <Link to="/register" className="text-danger pe-auto text-decoration-none" onClick={navigateRegister}>
             Please Register
           </Link>{" "}
+        </p>
+        <p>
+          Forget Password?
+          <button className="btn btn-link text-primary pe-auto text-decoration-none">Reset Password</button>
         </p>
         <SocialLogin></SocialLogin>
       </div>
