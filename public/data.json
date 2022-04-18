@@ -1,0 +1,23 @@
+[
+  {
+    "id": "1",
+    "price": "$115",
+    "picture": "https://res.cloudinary.com/dskmjlma4/image/upload/v1650262291/independent-service-provider/high-img_1_unhjom.jpg",
+    "name": "WILDLIFE TRAVEL TIPS",
+    "details": "Wildlife destinations have so many and each has so much to offer. Travelogue and tips from the wildlife photographers who has been there already will be so crucial to get most out of your wildlife vacation."
+  },
+  {
+    "id": "2",
+    "price": "$145",
+    "picture": "https://res.cloudinary.com/dskmjlma4/image/upload/v1650262291/independent-service-provider/high-img_5_ahdce7.jpg",
+    "name": "WILDLIFE PHOTOGRAPHY",
+    "details": "Browse through premium content on how to start photography, choosing the right camera and lens, wildlife photography tips and techniques, field guides and nuances of wildlife photography."
+  },
+  {
+    "id": "3",
+    "price": "$125",
+    "picture": "https://res.cloudinary.com/dskmjlma4/image/upload/v1650262292/independent-service-provider/high-img_11_ffi2m2.jpg",
+    "name": "HD WILDLIFE WALLPAPERS",
+    "details": " Browse through multiple categories and hundreds of wildlife pictures. You can just see and enjoy the pictures as well as download them for minimum price to use as your desktop wallpaper or others."
+  }
+]
