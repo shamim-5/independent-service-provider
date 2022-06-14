@@ -1,6 +1,5 @@
 # WEBSITE NAME: FRAMED WILDLIFE
 
-## [Private repo link](https://github.com/programming-hero-web-course-4/independent-service-provider-mss38)
 # Live Website: [ https://independent-service-provider123.netlify.app](https://independent-service-provider123.netlify.app)
 
 --------------
@@ -16,4 +15,4 @@
 
 # Technology Library and Framework : [React, Bootstrap, React-Bootstrap, Firebase, Custom CSS.]
 
-# independent-service-provider-mss38
+# independent-service-provider
